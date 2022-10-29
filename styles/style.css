@@ -709,7 +709,7 @@ img {
   height: 30px;
   display: flex;
   justify-content: center;
-  padding: 6px;
+  align-items: center;
   margin-left: auto;
   background-color: var(--main-bg-color);
   border: 1px solid var(--svg-color);
@@ -767,6 +767,7 @@ img {
 .form-input:focus,
 .form-input:active {
   border-color: var(--accent-color);
+  outline: none;
 }
 
 .form-input:focus + .icon,
@@ -790,6 +791,7 @@ img {
 .form-comment:focus,
 .form-comment:active {
   border-color: var(--accent-color);
+  outline: none;
 }
 
 .form-checkbox {
