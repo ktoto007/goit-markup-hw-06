@@ -511,6 +511,7 @@ img {
   border-color: rgba(255, 255, 255, 0.3);
   background-color: var(--accent-bg-color);
   color: var(--hero-color);
+  outline: transparent;
   transition: border-color var(--time) var(--cubic);
 }
 
@@ -751,7 +752,7 @@ img {
   border: 1px solid;
   border-color: rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
+  outline-color: transparent;
   transition: border-color var(--time) var(--cubic);
 }
 
@@ -782,6 +783,7 @@ img {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline-color: transparent;
   transition: border-color var(--time) var(--cubic);
 }
 
